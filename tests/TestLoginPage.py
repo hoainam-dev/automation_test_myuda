@@ -72,3 +72,4 @@ class TestAuthentication(unittest.TestCase):
         errorMessageElement = self.driver.find_element(By.ID, 'Ltbao')
         self.driver.save_screenshot('Step 5.png')
         self.assertEqual(errorMessageElement.text, 'Kiểm tra lại tên hay password! liên hệ ICT để được giúp đỡ')
+        print("ok")
